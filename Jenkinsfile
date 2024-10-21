@@ -5,12 +5,12 @@ pipeline {
         timeout(time: 1, unit: 'SECONDS')
     }
     stages {
-        stage('Roshan') {
+        stage('Doctor') {
             steps {
                 echo 'Welcome Doctor'
             }
         }
-        stage('Alton') {
+        stage('Backend') {
               steps {
                   echo 'Welcome to Backend'
               }
